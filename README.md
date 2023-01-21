@@ -1,5 +1,12 @@
 # goit-node-hw
 
+## Скриншоты результатов выполнения каждой команды
+
+- [Cписок контактов в виде таблицы](https://ibb.co/SrHtjYy)
+- [Получили контакт по id](https://ibb.co/sVzB44f)
+- [Добавили контакт](https://ibb.co/j49RVjB)
+- [Удалили контакт](https://ibb.co/WgN69TM)
+
 ## Шаг 1
 - Инициализируй npm в проекте
 - В корне проекта создай файл index.js
@@ -129,16 +136,24 @@ invokeAction(argv);
 ```
 # Получаем и выводим весь список контактов в виде таблицы (console.table)
 node index.js --action list
+![Иллюстрация](./screenshots/--action-list.png)
 
 # Получаем контакт по id
 node index.js --action get --id 5
-
+![Иллюстрация](./screenshots/--action-get.png)
+```
+```
 # Добавялем контакт
 node index.js --action add --name Mango --email mango@gmail.com --phone 322-22-22
+```
+![Иллюстрация](./screenshots/--action-add.png)
 
+```
 # Удаляем контакт
 node index.js --action remove --id=3
 ```
+![Иллюстрация](./screenshots/--action-remove.png)
+
 
 ## Шаг 6 - Сдача домашнего задания
 
